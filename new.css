@@ -1,0 +1,96 @@
+*{  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+nav{
+    background-color: rgb(226, 43, 43);
+    width: 100%;
+   height: 20rem;
+   
+}
+
+.n1>li,a{
+    display: inline;
+    float: right;
+    padding-right: 1rem;
+    
+    color: azure;
+    text-decoration: none;
+    
+}
+.d1>li,a{
+    float: left;
+    padding: 0.5rem;
+
+}
+
+li>a:hover{
+    background-color: black;
+    padding: 0.8rem;
+}
+
+nav >p{
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 11rem;
+    width: 60%;
+}
+
+.d2{
+    background-color: aquamarine;
+    width: 100%;
+    height: 30rem;
+}
+.d2>p{
+    padding-left: 25rem;
+    padding-top: 6rem;
+    font-size: x-large;
+}
+.d3>p{
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 11rem;
+    width: 60%;
+}
+
+.d4{
+    text-align: center;
+    padding-top: 3rem;
+    padding-left: 11rem;
+    width: 60%;
+    font-size: 3em;
+  
+}
+.d4>div,i{
+    display: inline;
+    padding: 1rem;
+}
+.n2>p{
+    padding: 0.5rem;
+    font-size:  0.8rem;
+
+}
+.n3>p{
+    padding: 0.5rem;
+    font-size:  0.8rem;
+
+}
+
+.n4>p{
+    padding: 0.5rem;
+    font-size:  0.8rem;
+
+}
+
+.n5>p{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.d4{
+display: grid;
+grid-template-columns: auto auto auto auto;
+
+}
